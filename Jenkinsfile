@@ -20,7 +20,6 @@ pipeline {
 				sh'mvn clean test'
 			}
 		}
-	}
 	
 	
 		stage('package'){
@@ -28,7 +27,5 @@ pipeline {
 				sh'mvn package -DskipTests'
 			}
 		}
-	}	
-	
 	
 }
